@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo1.css" type="text/css" media="screen">
+    <Script src="script.js"></Script>
+</head>
+
+<body>
+    <main>
+    <table align="center">        <tr>
+            <td> <img src="img/McDonald's_logo.svg.png" width="53">  <font face="arial" font size="6"> <strong>  CORRIDA DA FOME </strong> </font>  <img src="img/download.png" width="47"  </td>
+         <td>  
+    </table>
+   
+    <br>
+        
+        <legend>  CONTRA O COMPUTADOR  </legend>
+<form align="center">
+        <tr>
+            <label for=""> <strong> Escolha </strong></label>
+        <td>
+            <input type="radio" class="cpu" id="cpu" name="cpu" checked>
+            <label for=""> <strong> Sim </strong></label>
+            <input type="radio" class="cpu" id="cpu" name="cpu">
+            <label for=""> <strong> Nao </strong> </label>
+            <button id="Reiniciar" name="Reiniciar" > Reiniciar o Jogo</button>
+           </td>
+        </tr>
+    </tr>
+    </form>
+               
+
+
+    <table  align="center" width="300" height="500" border="0">
+            <tr>
+                <td class="meioc"> <img src="img/transp.png" alt="imagem" id="c1" onclick="return  checkjogo(this.id)" /> </td>
+                <td class="meioc"> <img src="img/transp.png" alt="imagem" id="c2" onclick=" return checkjogo(this.id)" /> </td>
+                <td class="md"> <img src="img/transp.png" alt="imagem" id="c3" onclick="return checkjogo(this.id)" /> </td>
+              
+
+           </tr>
+           <tr>
+            <td class="meioc"> <img src="img/transp.png" alt="imagem" id="c4" onclick="return checkjogo(this.id)" /> </td>
+            <td class="meioc"> <img src="img/transp.png" alt="imagem" id="c5" onclick="return checkjogo(this.id)" /> </td>
+            <td class="md"> <img src="img/transp.png" alt="imagem" id="c6" onclick="return checkjogo(this.id)" /> </td>
+        
+
+       </tr>
+       <tr>
+        <td class="baixom"> <img src="img/transp.png" alt="imagem" id="c7" onclick="return checkjogo(this.id)" /> </td>
+        <td class="baixom"> <img src="img/transp.png" alt="imagem" id="c8" onclick="return checkjogo(this.id)" /> </td>
+        <td> <img src="img/transp.png" alt="imagem" id="c9" onclick="return checkjogo(this.id)" /> </td>
+
+ </tr>
+
+              </table> 
+
+              
+              
+            </fieldset>
+            </main>
+</body>
+
+</html>
